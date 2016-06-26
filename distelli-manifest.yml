@@ -6,6 +6,8 @@ hellohuan/luohuan_me:
   PreRelease:
     - rvm install ruby-2.0.0-p598
     - gem install jekyll
+    - apt-get install nodejs
+    - apt-get install npm
     - gem install html-proofer
     - jekyll build
     - htmlproof ./_site
